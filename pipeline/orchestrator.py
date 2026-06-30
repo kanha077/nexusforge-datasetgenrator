@@ -154,7 +154,7 @@ class Orchestrator:
             print("\nStarting continuous expansion generation...")
             while expansion_accepted < max_expansion_samples:
                 # Prefer grounded samples for few-shot to prevent drift
-                grounded_samples = [s for s in accepted_samples if s.get('metadata', {}).get('source_type') == 'grounded']
+                grounded_samples = [s for s in accepted_samples if getattr(s.metadata, 'source_type', '') == 'grounded']
                 if len(grounded_samples) >= 2:
                     selected = random.sample(grounded_samples, 2)
                     others = [s for s in accepted_samples if s not in selected]

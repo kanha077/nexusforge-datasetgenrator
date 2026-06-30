@@ -13,9 +13,9 @@ class Retriever:
         if self.model is None:
             try:
                 from sentence_transformers import SentenceTransformer
-                self.model = SentenceTransformer(self.model_name, device=self.device)
-            except ImportError:
-                print("Warning: sentence_transformers not installed. Retrieval will not work.")
+                self.model = SentenceTransformer(self.model_name, device=self.device, trust_remote_code=True)
+            except ImportError as e:
+                print(f"Warning: Failed to load embedding model. Error: {e}")
 
     def add_chunks(self, chunks: List[Dict[str, Any]]):
         self._lazy_load()
