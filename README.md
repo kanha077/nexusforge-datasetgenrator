@@ -30,7 +30,7 @@ NexusForge takes a small seed corpus (like your personal notes, journals, or tra
 nexusforge/
 ├── configs/              # Configuration files (generation params, prompts, project settings)
 ├── dataset/              # Assembly and exporter logic for final datasets
-├── datasets/             # Output directory for exported .jsonl, alpaca, etc.
+├── outputs/              # Output directory for exported .jsonl, alpaca, etc.
 ├── generators/           # Core LLM generation logic (Grounded, Expansion, Retriever)
 ├── inference/            # Ollama client and connection managers
 ├── knowledge/            # Text chunking and cleaning utilities

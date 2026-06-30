@@ -4,7 +4,7 @@ from typing import List
 from dataset.schema import Sample
 
 class Exporter:
-    def __init__(self, output_dir: str = "datasets/exported"):
+    def __init__(self, output_dir: str = "outputs/exported"):
         self.output_dir = output_dir
         os.makedirs(self.output_dir, exist_ok=True)
 

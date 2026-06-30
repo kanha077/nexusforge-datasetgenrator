@@ -138,7 +138,7 @@ class Orchestrator:
                                     exporter.export_jsonl(accepted_samples)
                                 checkpoint.update_exported_samples(len(accepted_samples))
                                 
-                                ans = input("Check the datasets/exported folder. Continue generating? (y/n): ")
+                                ans = input("Check the outputs/exported folder. Continue generating? (y/n): ")
                                 if ans.lower().strip() != 'y':
                                     print("Stopping generation.")
                                     return
@@ -198,7 +198,7 @@ class Orchestrator:
                                     exporter.export_jsonl(accepted_samples)
                                 checkpoint.update_exported_samples(len(accepted_samples))
                                 
-                                ans = input("Check the datasets/exported folder. Continue generating? (y/n): ")
+                                ans = input("Check the outputs/exported folder. Continue generating? (y/n): ")
                                 if ans.lower().strip() != 'y':
                                     print("Stopping generation.")
                                     return

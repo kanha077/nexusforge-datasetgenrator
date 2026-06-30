@@ -70,7 +70,7 @@ venv.bak/
 Thumbs.db
 
 # NexusForge Specific
-datasets/exported/
+outputs/exported/
 *.jsonl
 *.json
 !configs/*.yaml
