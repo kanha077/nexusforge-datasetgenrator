@@ -1,0 +1,20 @@
+grounded:
+  - file: "qa.txt"
+    task_type: "qa"
+    weight: 1.0
+  - file: "summarization.txt"
+    task_type: "summarization"
+    weight: 0.5
+  - file: "instruction_following.txt"
+    task_type: "instruction_following"
+    weight: 1.0
+  - file: "scenario_application.txt"
+    task_type: "scenario_application"
+    weight: 1.0
+
+expansion:
+  - file: "self_instruct.txt"
+    task_type: "self_instruct"
+
+verification:
+  - file: "grounding_check.txt"

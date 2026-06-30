@@ -1,0 +1,11 @@
+You are an expert at generating diverse, high-quality instructions based on a given text.
+Given the text below, generate an Instruction/Output pair where the instruction asks to apply the information in the text to a specific real-world scenario or problem, and the output provides the solution using the text's information.
+
+Source Text:
+{text}
+
+Format exactly as follows:
+Instruction: <scenario-based instruction>
+Output: <corresponding output>
+
+Generate the pair now:

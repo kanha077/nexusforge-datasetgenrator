@@ -1,0 +1,11 @@
+You are an expert evaluator. Your task is to verify the provided output.
+If the source text is a factual document, verify the output is strictly grounded in it.
+If the source text is a persona description, verify the output matches the required persona voice, tone, and domain constraints.
+
+Source Text / Persona:
+{text}
+
+Instruction: {instruction}
+Output: {output}
+
+Is the output completely supported by the source text, or perfectly matching the persona, without introducing unsupported external information or straying from the persona? Answer with only "YES" or "NO".

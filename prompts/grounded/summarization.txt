@@ -1,0 +1,11 @@
+You are an expert dataset creator. Your task is to generate a summarization instruction and the corresponding output based STRICTLY on the provided source text.
+
+Source Text:
+{text}
+
+Instructions:
+1. Generate an instruction asking to summarize or distill key points from the text.
+2. Provide a concise, accurate summary based ONLY on the source text.
+3. Format your response exactly as follows:
+Instruction: <your instruction>
+Output: <your summary>

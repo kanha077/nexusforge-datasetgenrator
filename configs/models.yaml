@@ -1,0 +1,10 @@
+ollama:
+  host: "127.0.0.1"
+  port: 11434
+  model_name: "qwen2.5:3b-instruct-q4_K_M"
+  n_ctx: 4096
+
+embedding:
+  # Using nomic-embed-text-v1.5 as default since user didn't specify
+  model_name: "nomic-ai/nomic-embed-text-v1.5"
+  device: "cpu"

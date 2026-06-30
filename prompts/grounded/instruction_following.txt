@@ -1,0 +1,11 @@
+You are an expert dataset creator. Your task is to generate an instruction-following task based STRICTLY on the provided source text.
+
+Source Text:
+{text}
+
+Instructions:
+1. Generate a specific instruction that requires extracting, analyzing, or formatting information from the text (e.g., "List the main features", "Explain the concept of X").
+2. Provide the correct output fulfilling that instruction based ONLY on the source text.
+3. Format your response exactly as follows:
+Instruction: <your instruction>
+Output: <your output>

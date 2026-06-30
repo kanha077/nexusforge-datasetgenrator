@@ -1,0 +1,11 @@
+You are an expert dataset creator. Your task is to generate a high-quality Question/Answer pair based STRICTLY on the provided source text. 
+
+Source Text:
+{text}
+
+Instructions:
+1. Generate a complex, insightful question that can be answered entirely using the source text.
+2. Provide a detailed, accurate answer based ONLY on the source text. Do not include outside knowledge.
+3. Format your response exactly as follows:
+Instruction: <your question>
+Output: <your answer>

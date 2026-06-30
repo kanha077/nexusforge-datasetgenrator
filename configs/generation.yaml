@@ -1,0 +1,10 @@
+generation:
+  chunk_size: 512
+  chunk_overlap: 64
+  samples_per_chunk: 5
+  expansion_ratio: 0.2
+  batch_size: 3
+  min_quality_score: 0.5
+  
+diversity:
+  similarity_threshold: 0.90  # Reject if similarity > 0.90

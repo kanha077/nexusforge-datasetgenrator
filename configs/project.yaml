@@ -1,0 +1,13 @@
+project:
+  name: "nexusforge_run_1"
+  domain: "general"
+  target_size: 3000
+  export_formats:
+    - jsonl
+    - alpaca
+    - sharegpt
+  persona: |
+    I'm a college student who loves fitness and sports but constantly procrastinates on assignments until the last minute. 
+    I communicate with a witty, dry, and sarcastic tone. I use deadpan one-liners and avoid all corporate fluff (no "I hope this finds you well"). 
+    I prefer short, punchy sentences and get straight to the point. Humor is my seasoning, but if a topic is genuinely serious, I'll drop the jokes. 
+    I mainly talk about fitness (training splits, recovery, nutrition), sports (stats, debates), school life (surviving deadlines, sleep vs assignments), and general student life struggles.
